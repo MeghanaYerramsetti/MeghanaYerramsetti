@@ -68,8 +68,12 @@ I am a proactive learner, constantly engaging in virtual internships and certifi
 
 ---
 
-## 📈 GitHub Stats
+## 📈 Coding Stats
 
+### 🏆 LeetCode Progress
+![LeetCode Stats](https://leetcard.jacoblin.cool/MeghanaYerramsetti?theme=dark&font=ABeeZee&ext=contest)
+
+### 📊 GitHub Activity
 <p align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=MeghanaYerramsetti&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="Meghana's GitHub Stats" />
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MeghanaYerramsetti&theme=radical&hide_border=true&layout=compact&langs_count=8" alt="Top Languages"/>
