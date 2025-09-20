@@ -73,8 +73,12 @@ I am a proactive learner, constantly engaging in virtual internships and certifi
 ### 🏆 LeetCode Progress
 ![LeetCode Stats](https://leetcard.jacoblin.cool/MeghanaYerramsetti?theme=dark&font=ABeeZee&ext=contest)
 
-### ⚡ HackerRank Stats
-![HackerRank Stats](https://github-readme-hackerrank-stats.vercel.app/api?username=22A31A4295&theme=dark&show_icons=true)
+### ⚡ HackerRank Achievements
+[![HackerRank Python Basic](https://img.shields.io/badge/Python-Basic%20Certificate-00EA64?logo=hackerrank)](https://www.hackerrank.com/profile/22A31A4295)
+[![HackerRank SQL Basic](https://img.shields.io/badge/SQL-Basic%20Certificate-00EA64?logo=hackerrank)](https://www.hackerrank.com/profile/22A31A4295)
+[![HackerRank SQL Intermediate](https://img.shields.io/badge/SQL-Intermediate%20Certificate-00EA64?logo=hackerrank)](https://www.hackerrank.com/profile/22A31A4295)
+
+**HackerRank Profile:** [22A31A4295](https://www.hackerrank.com/profile/22A31A4295)
 
 ### 📊 GitHub Activity
 <p align="center">
