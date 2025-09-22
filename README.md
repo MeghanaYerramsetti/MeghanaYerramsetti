@@ -1,4 +1,4 @@
-# <div align="center">Meghana Yerramsetti</div>
+# <div align="center" style="position: relative;">Meghana Yerramsetti</div>
 
 <div align="center">
   
@@ -43,7 +43,7 @@ I am a proactive learner, constantly engaging in virtual internships and certifi
 ## 🛠️ Tech Stack
 
 ### **Programming Languages:**
-<div align="center">
+<div align="center" class="badge-container">
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=black)
 ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black&labelColor=black)
@@ -62,7 +62,7 @@ I am a proactive learner, constantly engaging in virtual internships and certifi
 </div>
 
 ### **Tools & Platforms:**
-<div align="center">
+<div align="center" class="badge-container">
 
 ![UiPath](https://img.shields.io/badge/UiPath-FF4A4A?style=flat-square&logo=uipath&logoColor=white&labelColor=black)
 ![Blue Prism](https://img.shields.io/badge/Blue_Prism-0078D7?style=flat-square&logo=blueprism&logoColor=white&labelColor=black)
@@ -122,7 +122,7 @@ I am a proactive learner, constantly engaging in virtual internships and certifi
 </div>
 
 ### ⚡ HackerRank Achievements
-<div align="center">
+<div align="center" class="badge-container">
 
 [![HackerRank Python Basic](https://img.shields.io/badge/Python-Basic%20Certificate-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/profile/22A31A4295)
 [![HackerRank SQL Basic](https://img.shields.io/badge/SQL-Basic%20Certificate-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/profile/22A31A4295)
@@ -163,7 +163,7 @@ I am a proactive learner, constantly engaging in virtual internships and certifi
 
 </div>
 
-<div align="center">
+<div align="center" class="badge-container">
 
 [![Email](https://img.shields.io/badge/📧_Email-ymeghana77@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ymeghana77@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-Connect-%230A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/meghana-yerramsetti-b07277259/)
@@ -191,61 +191,174 @@ I am a proactive learner, constantly engaging in virtual internships and certifi
 
 </div>
 
+<!-- Floating Animation Elements -->
+<div style="position: fixed; top: 50px; right: 20px; font-size: 30px; animation: float 3s ease-in-out infinite;">🚀</div>
+<div style="position: fixed; top: 100px; left: 20px; font-size: 30px; animation: float 4s ease-in-out infinite;">💻</div>
+<div style="position: fixed; bottom: 100px; right: 50px; font-size: 30px; animation: float 5s ease-in-out infinite;">🌟</div>
+
 <style>
-  .header-image {
-    width: 100%;
-    max-height: 200px;
-    object-fit: cover;
-    border-radius: 10px;
-    margin-bottom: 20px;
+  /* Keyframe Animations */
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
   }
   
-  /* Animation for badges */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  @keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+  }
+  
+  @keyframes slideIn {
+    from { transform: translateX(-100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+  }
+  
+  /* Global Styles */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Header Animation */
+  h1, h2, h3 {
+    animation: fadeIn 1s ease-out;
+  }
+  
+  /* Badge Container Animation */
   .badge-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
     margin: 20px 0;
+    animation: slideIn 0.8s ease-out;
   }
   
-  /* Hover effects */
-  img:hover {
-    transform: translateY(-5px);
+  /* Hover Effects */
+  img:hover, a:hover {
+    transform: translateY(-5px) scale(1.05);
     transition: transform 0.3s ease;
+    animation: pulse 0.5s ease;
   }
   
-  /* Custom scrollbar */
+  /* Table Styling */
+  table {
+    animation: fadeIn 1.2s ease-out;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Custom Scrollbar */
   ::-webkit-scrollbar {
-    width: 10px;
+    width: 12px;
   }
   
   ::-webkit-scrollbar-track {
     background: #f1f1f1;
+    border-radius: 10px;
   }
   
   ::-webkit-scrollbar-thumb {
-    background: #888;
-    border-radius: 5px;
+    background: linear-gradient(45deg, #667eea, #764ba2);
+    border-radius: 10px;
   }
   
   ::-webkit-scrollbar-thumb:hover {
-    background: #555;
+    background: linear-gradient(45deg, #764ba2, #667eea);
+  }
+  
+  /* Gradient Background for Sections */
+  h2 {
+    background: linear-gradient(45deg, #667eea, #764ba2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    padding: 10px 0;
+  }
+  
+  /* Pulse Animation for Important Elements */
+  .pulse {
+    animation: pulse 2s infinite;
+  }
+  
+  /* Section Dividers */
+  hr {
+    border: none;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, #667eea, transparent);
+    margin: 40px 0;
+    animation: slideIn 1s ease-out;
+  }
+  
+  /* Code Block Styling */
+  code {
+    background: linear-gradient(45deg, #f5f5f5, #e0e0e0);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+    animation: fadeIn 0.5s ease-out;
   }
 </style>
 
 <script>
-  // Simple animation for page load
+  // Enhanced animations for page load
   document.addEventListener('DOMContentLoaded', function() {
-    const elements = document.querySelectorAll('h1, h2, h3, p, img, .badge-container');
+    // Animate all elements with staggered delay
+    const elements = document.querySelectorAll('h1, h2, h3, p, img, .badge-container, table, code, hr');
+    
     elements.forEach((el, index) => {
       el.style.opacity = '0';
-      el.style.transform = 'translateY(20px)';
+      el.style.transform = 'translateY(30px)';
+      
       setTimeout(() => {
-        el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+        el.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
         el.style.opacity = '1';
         el.style.transform = 'translateY(0)';
-      }, index * 100);
+      }, index * 150);
+    });
+    
+    // Add pulse animation to specific elements
+    const importantElements = document.querySelectorAll('h1, h2');
+    importantElements.forEach(el => {
+      el.classList.add('pulse');
+    });
+    
+    // Floating animation for badges on hover
+    const badges = document.querySelectorAll('.badge-container img, .badge-container a');
+    badges.forEach(badge => {
+      badge.addEventListener('mouseenter', function() {
+        this.style.animation = 'float 1s ease-in-out';
+      });
+      
+      badge.addEventListener('mouseleave', function() {
+        this.style.animation = '';
+      });
+    });
+  });
+  
+  // Add scroll animation
+  window.addEventListener('scroll', function() {
+    const scrolled = window.pageYOffset;
+    const parallaxElements = document.querySelectorAll('.badge-container');
+    
+    parallaxElements.forEach(el => {
+      const speed = 0.5;
+      const yPos = -(scrolled * speed);
+      el.style.transform = `translateY(${yPos}px)`;
     });
   });
 </script>
