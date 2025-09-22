@@ -177,89 +177,8 @@ I am a proactive learner, constantly engaging in virtual internships and certifi
 
 ## ✨ Thanks for visiting my profile! ✨
 
-![Visitor Count](https://profile-counter.glitch.me/MeghanaYerramsetti/count.svg)
 
 ⭐ **Feel free to star any repositories you find interesting!** ⭐
 
 </div>
 
----
-
-<div align="center">
-
-### 🎯 *"Code is like humor. When you have to explain it, it's bad." - Cory House* 🎯
-
-</div>
-
-<!-- Floating Animation Elements -->
-<div style="position: fixed; top: 50px; right: 20px; font-size: 30px; animation: float 3s ease-in-out infinite;">🚀</div>
-<div style="position: fixed; top: 100px; left: 20px; font-size: 30px; animation: float 4s ease-in-out infinite;">💻</div>
-<div style="position: fixed; bottom: 100px; right: 50px; font-size: 30px; animation: float 5s ease-in-out infinite;">🌟</div>
-
-<style>
-/* Keyframe Animations */
-@keyframes float {
-    0%, 100% { transform: translateY(0px); }
-    50% { transform: translateY(-20px); }
-}
-
-@keyframes fadeIn {
-    from { opacity: 0; transform: translateY(30px); }
-    to { opacity: 1; transform: translateY(0); }
-}
-
-@keyframes pulse {
-    0%, 100% { transform: scale(1); }
-    50% { transform: scale(1.05); }
-}
-
-@keyframes slideIn {
-    from { transform: translateX(-100%); opacity: 0; }
-    to { transform: translateX(0); opacity: 1; }
-}
-
-/* Header Animation */
-h1, h2, h3 {
-    animation: fadeIn 1s ease-out;
-}
-
-/* Hover Effects */
-img:hover, a:hover {
-    transform: translateY(-5px) scale(1.05);
-    transition: transform 0.3s ease;
-}
-
-/* Custom Scrollbar */
-::-webkit-scrollbar {
-    width: 12px;
-}
-
-::-webkit-scrollbar-track {
-    background: #f1f1f1;
-    border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-    background: linear-gradient(45deg, #667eea, #764ba2);
-    border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(45deg, #764ba2, #667eea);
-}
-</style>
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    const elements = document.querySelectorAll('h1, h2, h3, p, img, a');
-    elements.forEach((el, index) => {
-        el.style.opacity = '0';
-        el.style.transform = 'translateY(20px)';
-        setTimeout(() => {
-            el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
-            el.style.opacity = '1';
-            el.style.transform = 'translateY(0)';
-        }, index * 100);
-    });
-});
-</script>
