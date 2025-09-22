@@ -179,7 +179,7 @@ I am a proactive learner, constantly engaging in virtual internships and certifi
 
 ![Visitor Count](https://profile-counter.glitch.me/MeghanaYerramsetti/count.svg)
 
-⭐ *Feel free to star any repositories you find interesting!* ⭐
+⭐ **Feel free to star any repositories you find interesting!** ⭐
 
 </div>
 
@@ -197,168 +197,69 @@ I am a proactive learner, constantly engaging in virtual internships and certifi
 <div style="position: fixed; bottom: 100px; right: 50px; font-size: 30px; animation: float 5s ease-in-out infinite;">🌟</div>
 
 <style>
-  /* Keyframe Animations */
-  @keyframes float {
+/* Keyframe Animations */
+@keyframes float {
     0%, 100% { transform: translateY(0px); }
     50% { transform: translateY(-20px); }
-  }
-  
-  @keyframes fadeIn {
+}
+
+@keyframes fadeIn {
     from { opacity: 0; transform: translateY(30px); }
     to { opacity: 1; transform: translateY(0); }
-  }
-  
-  @keyframes pulse {
+}
+
+@keyframes pulse {
     0%, 100% { transform: scale(1); }
     50% { transform: scale(1.05); }
-  }
-  
-  @keyframes slideIn {
+}
+
+@keyframes slideIn {
     from { transform: translateX(-100%); opacity: 0; }
     to { transform: translateX(0); opacity: 1; }
-  }
-  
-  /* Global Styles */
-  body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-  
-  /* Header Animation */
-  h1, h2, h3 {
+}
+
+/* Header Animation */
+h1, h2, h3 {
     animation: fadeIn 1s ease-out;
-  }
-  
-  /* Badge Container Animation */
-  .badge-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin: 20px 0;
-    animation: slideIn 0.8s ease-out;
-  }
-  
-  /* Hover Effects */
-  img:hover, a:hover {
+}
+
+/* Hover Effects */
+img:hover, a:hover {
     transform: translateY(-5px) scale(1.05);
     transition: transform 0.3s ease;
-    animation: pulse 0.5s ease;
-  }
-  
-  /* Table Styling */
-  table {
-    animation: fadeIn 1.2s ease-out;
-    border-collapse: collapse;
-    width: 100%;
-  }
-  
-  th, td {
-    padding: 12px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-  }
-  
-  th {
-    background-color: #f2f2f2;
-  }
-  
-  /* Custom Scrollbar */
-  ::-webkit-scrollbar {
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
     width: 12px;
-  }
-  
-  ::-webkit-scrollbar-track {
+}
+
+::-webkit-scrollbar-track {
     background: #f1f1f1;
     border-radius: 10px;
-  }
-  
-  ::-webkit-scrollbar-thumb {
+}
+
+::-webkit-scrollbar-thumb {
     background: linear-gradient(45deg, #667eea, #764ba2);
     border-radius: 10px;
-  }
-  
-  ::-webkit-scrollbar-thumb:hover {
+}
+
+::-webkit-scrollbar-thumb:hover {
     background: linear-gradient(45deg, #764ba2, #667eea);
-  }
-  
-  /* Gradient Background for Sections */
-  h2 {
-    background: linear-gradient(45deg, #667eea, #764ba2);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    padding: 10px 0;
-  }
-  
-  /* Pulse Animation for Important Elements */
-  .pulse {
-    animation: pulse 2s infinite;
-  }
-  
-  /* Section Dividers */
-  hr {
-    border: none;
-    height: 3px;
-    background: linear-gradient(90deg, transparent, #667eea, transparent);
-    margin: 40px 0;
-    animation: slideIn 1s ease-out;
-  }
-  
-  /* Code Block Styling */
-  code {
-    background: linear-gradient(45deg, #f5f5f5, #e0e0e0);
-    padding: 2px 6px;
-    border-radius: 4px;
-    font-family: 'Courier New', monospace;
-    animation: fadeIn 0.5s ease-out;
-  }
+}
 </style>
 
 <script>
-  // Enhanced animations for page load
-  document.addEventListener('DOMContentLoaded', function() {
-    // Animate all elements with staggered delay
-    const elements = document.querySelectorAll('h1, h2, h3, p, img, .badge-container, table, code, hr');
-    
+document.addEventListener('DOMContentLoaded', function() {
+    const elements = document.querySelectorAll('h1, h2, h3, p, img, a');
     elements.forEach((el, index) => {
-      el.style.opacity = '0';
-      el.style.transform = 'translateY(30px)';
-      
-      setTimeout(() => {
-        el.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
-        el.style.opacity = '1';
-        el.style.transform = 'translateY(0)';
-      }, index * 150);
+        el.style.opacity = '0';
+        el.style.transform = 'translateY(20px)';
+        setTimeout(() => {
+            el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+            el.style.opacity = '1';
+            el.style.transform = 'translateY(0)';
+        }, index * 100);
     });
-    
-    // Add pulse animation to specific elements
-    const importantElements = document.querySelectorAll('h1, h2');
-    importantElements.forEach(el => {
-      el.classList.add('pulse');
-    });
-    
-    // Floating animation for badges on hover
-    const badges = document.querySelectorAll('.badge-container img, .badge-container a');
-    badges.forEach(badge => {
-      badge.addEventListener('mouseenter', function() {
-        this.style.animation = 'float 1s ease-in-out';
-      });
-      
-      badge.addEventListener('mouseleave', function() {
-        this.style.animation = '';
-      });
-    });
-  });
-  
-  // Add scroll animation
-  window.addEventListener('scroll', function() {
-    const scrolled = window.pageYOffset;
-    const parallaxElements = document.querySelectorAll('.badge-container');
-    
-    parallaxElements.forEach(el => {
-      const speed = 0.5;
-      const yPos = -(scrolled * speed);
-      el.style.transform = `translateY(${yPos}px)`;
-    });
-  });
+});
 </script>
